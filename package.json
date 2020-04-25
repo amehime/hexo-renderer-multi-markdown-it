@@ -1,0 +1,39 @@
+{
+	"name": "hexo-renderer-markdown-it-ex",
+	"version": "1.0",
+	"description": "A Markdown parser for Hexo.",
+	"main": "index.js",
+	"repository": "https://github.com/amehime/hexo-renderer-markdown-it-ex.git",
+	"keywords": [
+		"hexo",
+		"renderer",
+		"markdown",
+		"markdown-it",
+		"hexo-renderer"
+	],
+	"directories": {
+		"lib": "./lib"
+	},
+	"files": [
+		"index.js",
+		"lib/"
+	],
+	"author": "Ruri Shimotsuki",
+	"license": "MIT",
+	"bugs": "https://github.com/amehime/hexo-renderer-markdown-it-ex/issues",
+	"homepage": "https://github.com/amehime/hexo-renderer-markdown-it-ex",
+	"dependencies": {
+		"hexo-util": "^1.7.0",
+		"clone": "^2.1.0",
+    	"uslug": "^1.0.4",
+    	"prismjs": "1.20.0",
+    	"argparse": "^1.0.7",
+	    "entities": "~2.0.0",
+	    "linkify-it": "^2.0.0",
+	    "mdurl": "^1.0.1",
+	    "uc.micro": "^1.0.5"
+	},
+	"engines": {
+		"node": ">=8.6.0"
+	}
+}
