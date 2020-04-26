@@ -7,13 +7,14 @@ hexo.config.markdown = Object.assign({
   plugins: {}
 }, hexo.config.markdown);
 
-hexo.config.markdown = Object.assign({
+hexo.config.markdown.render = Object.assign({
   html: true,
   xhtmlOut: false,
   breaks: true,
   linkify: true,
   typographer: true,
-  quotes: '“”‘’'
+  quotes: '“”‘’',
+  tab: ''
 }, hexo.config.markdown.render);
 
 
