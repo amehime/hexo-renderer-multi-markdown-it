@@ -25,8 +25,8 @@
   "dependencies": {
     "argparse": "^1.0.7",
     "clone": "^2.1.0",
-    "eastasianwidth": "~0.2.0",
-    "entities": "~2.0.0",
+    "eastasianwidth": "^0.2.0",
+    "entities": "^2.0.0",
     "hexo-util": "^1.7.0",
     "linkify-it": "^2.0.0",
     "mathjax-full": "^3.0.1",
