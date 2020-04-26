@@ -25,16 +25,16 @@
   "dependencies": {
     "argparse": "^1.0.7",
     "clone": "^2.1.0",
-    "deasync-promise": "^1.0.1",
     "eastasianwidth": "^0.2.0",
     "entities": "^2.0.0",
     "hexo-util": "^1.7.0",
     "katex": "^0.11.1",
     "linkify-it": "^2.0.0",
+    "mathjax-full": "^3.0.1",
     "mdurl": "^1.0.1",
     "mermaid": "^8.5.0",
+    "pangu": "^4.0.7",
     "prismjs": "1.20.0",
-    "puppeteer": "^3.0.1",
     "uc.micro": "^1.0.5",
     "uslug": "^1.0.4"
   },
