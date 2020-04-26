@@ -5,19 +5,19 @@
   "main": "index.js",
   "repository": "https://github.com/amehime/hexo-renderer-markdown-it-ex.git",
   "keywords": [
-		"hexo",
-		"renderer",
-		"markdown",
-		"markdown-it",
-		"hexo-renderer"
-	],
+    "hexo",
+    "renderer",
+    "markdown",
+    "markdown-it",
+    "hexo-renderer"
+  ],
   "directories": {
     "lib": "./lib"
   },
   "files": [
-		"index.js",
-		"lib/"
-	],
+    "index.js",
+    "lib/"
+  ],
   "author": "Ruri Shimotsuki",
   "license": "MIT",
   "bugs": "https://github.com/amehime/hexo-renderer-markdown-it-ex/issues",
