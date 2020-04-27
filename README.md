@@ -30,21 +30,26 @@ markdown:
 ```
 
 
-## Surpported Plugins and Examples
+## Supported Plugins and Examples
 ### markdown-it-abbr
-    Markdown:
-    ```
-    *[HTML]: Hyper Text Markup Language
-    *[W3C]:  World Wide Web Consortium
-    The HTML specification
-    is maintained by the W3C.
-    ```
+Markdown:
+```
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+The HTML specification
+is maintained by the W3C.
+```
 
-    HTML:
-    ```html
-    <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-    is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
-    ```
+HTML:
+```html
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
+is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+```
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+The HTML specification
+is maintained by the W3C.
+
 ### markdown-it-container
     Markdown:
     ```
