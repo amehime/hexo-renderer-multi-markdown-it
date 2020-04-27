@@ -41,7 +41,7 @@ HTML:
 ```html
 H<sub>2</sub>O
 ```
-H~2~O
+H<sub>2</sub>O
 
 ### [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup)
 MarkDown:
@@ -52,7 +52,47 @@ HTML:
 ```html
 29<sup>th</sup>
 ```
-29^th^
+29<sup>th</sup>
+
+### [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins)
+MarkDown:
+```
+++inserted++
+```
+HTML:
+```html
+<ins>inserted</ins>
+```
+<ins>inserted</ins>
+
+### [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark)
+MarkDown:
+```
+==marked==
+```
+HTML:
+```
+<mark>marked</mark>
+```
+<mark>marked</mark>
+
+### [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
+Markdown:
+```
+::: warning
+*here be dragons*
+:::
+```
+
+HTML:
+```html
+<div class="warning">
+    <em>here be dragons</em>
+</div>
+```
+<div class="warning">
+    <em>here be dragons</em>
+</div>
 
 ### [markdown-it-abbr](https://www.npmjs.com/package/markdown-it-abbr)
 Markdown:
@@ -69,20 +109,6 @@ HTML:
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
 
-### [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
-Markdown:
-```
-::: warning
-*here be dragons*
-:::
-```
-
-HTML:
-```html
-<div class="warning">
-    <em>here be dragons</em>
-</div>
-```
 
 ### [markdown-it-deflist](https://www.npmjs.com/package/markdown-it-deflist)
 Markdown:
@@ -203,25 +229,6 @@ isn’t indented.</p>
 </section>
 ```
 
-### [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins)
-MarkDown:
-```
-++inserted++
-```
-HTML:
-```html
-<ins>inserted</ins>
-```
-
-### [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark)
-MarkDown:
-```
-==marked==
-```
-HTML:
-```
-<mark>inserted</mark>
-```
 ### [markdown-it-task-checkbox](https://www.npmjs.com/package/markdown-it-task-checkbox)
 Markdown:
 ```
@@ -253,6 +260,7 @@ Support for `@[toc]`
 ### markdown-it-katex
 Support for [KaTeX](https://github.com/Khan/KaTeX)
 
+Katex plugin is enabled by default. However, this renderer alone does not work out of the box for mathematical formulas to display correctly on your website. Therefore, you do not need to do anything if you do not want to use Katex. Otherwise, if you want to use katex, you must add this css style to your website: 
 ```
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
 ```
