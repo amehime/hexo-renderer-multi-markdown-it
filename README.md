@@ -30,7 +30,7 @@ markdown:
 ```
 
 
-## Supported Plugins and Examples
+## default Supported Plugins and Examples
 
 ### [markdown-it-sub](https://www.npmjs.com/package/markdown-it-sub)
 MarkDown:
@@ -108,7 +108,8 @@ HTML:
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
-
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
+is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 
 ### [markdown-it-deflist](https://www.npmjs.com/package/markdown-it-deflist)
 Markdown:
@@ -178,9 +179,9 @@ HTML:
 ```
 ### [markdown-it-emoji](https://www.npmjs.com/package/markdown-it-emoji)
 
-    Two versions:
-    - __Full__ (default), with all github supported emojis.
-    - [Light](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/light.json), with only well-supported unicode emojis and reduced size.
+Two versions:
+- __Full__ (default), with all github supported emojis.
+- [Light](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/light.json), with only well-supported unicode emojis and reduced size.
 
 ### [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
 Markdown:
@@ -207,11 +208,13 @@ isn’t indented.</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
     <ol class="footnotes-list">
-        <li id="fn1"  class="footnote-item"><p>Here is the footnote. <a href="#fnref1" class="footnote-backref">↩</a></p>
+        <li id="fn1"  class="footnote-item">
+            <p>Here is the footnote. <a href="#fnref1" class="footnote-backref">↩</a></p>
         </li>
-        <li id="fn2"  class="footnote-item"><p>Here’s one with multiple blocks.</p>
-        <p>Subsequent paragraphs are indented to show that they
-        belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩</a></p>
+        <li id="fn2"  class="footnote-item">
+            <p>Here’s one with multiple blocks.</p>
+            <p>Subsequent paragraphs are indented to show that they
+            belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩</a></p>
         </li>
     </ol>
 </section>
@@ -221,9 +224,10 @@ isn’t indented.</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
     <ol class="footnotes-list">
-    <li id="fn1"  class="footnote-item"><p>Inlines notes are easier to write, since
-    you don’t have to pick an identifier and move down to type the
-    note. <a href="#fnref1" class="footnote-backref">↩</a></p>
+    <li id="fn1"  class="footnote-item">
+        <p>Inlines notes are easier to write, since
+        you don’t have to pick an identifier and move down to type the
+        note. <a href="#fnref1" class="footnote-backref">↩</a></p>
     </li>
     </ol>
 </section>
@@ -240,27 +244,27 @@ HTML:
 <ul class="task-list">
     <li class="task-list-item">
         <div classname="checkbox">
-        <input type="checkbox" id="cbx_0" checked="true" disabled="true">
-        <label for="cbx_0">checked</label>
+            <input type="checkbox" id="cbx_0" checked="true" disabled="true">
+            <label for="cbx_0">checked</label>
         </div>
     </li>
     <li class="task-list-item">
         <div classname="checkbox">
-        <input type="checkbox" id="cbx_0" disabled="true">
-        <label for="cbx_0">unchecked</label>
+            <input type="checkbox" id="cbx_0" disabled="true">
+            <label for="cbx_0">unchecked</label>
         </div>
     </li>
 </ul>
 ```
 
 ### [markdown-it-toc-and-anchor](https://www.npmjs.com/package/markdown-it-toc-and-anchor)
-Support for `@[toc]`
+Support for `@[toc]` and add anchor links in headings
 
 
-### markdown-it-katex
+### [markdown-it-katex](https://github.com/yzhang-gh/markdown-it-katex)
 Support for [KaTeX](https://github.com/Khan/KaTeX)
 
-Katex plugin is enabled by default. However, this renderer alone does not work out of the box for mathematical formulas to display correctly on your website. Therefore, you do not need to do anything if you do not want to use Katex. Otherwise, if you want to use katex, you must add this css style to your website: 
+If you want to use katex, you must add this css style to your website: 
 ```
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
 ```
@@ -268,8 +272,11 @@ Katex plugin is enabled by default. However, this renderer alone does not work o
 ### markdown-it-mermaid
 Support for [Mermaid](https://github.com/mermaid-js/mermaid)
 
-### markdown-it-pangu
-For more information: [Pangu](https://github.com/vinta/pangu.js)
+ToDO for cunstom theme
 
 ### markdown-it-prism
-code highlight by [Prism.js](https://prismjs.com/)
+code highlighted by [Prism.js](https://prismjs.com/)
+comment will be spaced by `pangu.js`
+
+### [markdown-it-pangu](https://shigma.github.io/markdown-it-pangu/)
+For more information: [Pangu](https://github.com/vinta/pangu.js)
