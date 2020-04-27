@@ -45,6 +45,7 @@ HTML:
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
+
 *[HTML]: Hyper Text Markup Language
 *[W3C]:  World Wide Web Consortium
 The HTML specification
