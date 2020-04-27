@@ -35,7 +35,7 @@
     "mermaid": "^8.5.0",
     "pangu": "^4.0.7",
     "prismjs": "1.20.0",
-    "puppeteer": "^3.0.1",
+    "puppeteer-chromium-resolver": "^3.1.1",
     "uc.micro": "^1.0.5",
     "uslug": "^1.0.4"
   },
