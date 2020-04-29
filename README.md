@@ -250,8 +250,8 @@ HTML:
     </li>
     <li class="task-list-item">
         <div classname="checkbox">
-            <input type="checkbox" id="cbx_0" disabled="true">
-            <label for="cbx_0">unchecked</label>
+            <input type="checkbox" id="cbx_1" disabled="true">
+            <label for="cbx_1">unchecked</label>
         </div>
     </li>
 </ul>
@@ -261,7 +261,7 @@ HTML:
 Support for `@[toc]` and add anchor links in headings
 
 
-### [markdown-it-katex](https://github.com/yzhang-gh/markdown-it-katex)
+### [markdown-it-katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex)
 Support for [KaTeX](https://github.com/Khan/KaTeX)
 
 If you want to use katex, you must add this css style to your website: 
