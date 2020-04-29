@@ -22,11 +22,12 @@ markdown:
     tab: ''
     gutter: true
   plugins:
-#   - plugin:
-#       name: markdown-it-something
-#       enable: true
-#       options:
-#            this is plugin option
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options:
+          tocClassName: 'header-toc'
+          anchorClassName: 'header-anchor'
 ```
 
 
@@ -51,13 +52,15 @@ If you want to use katex, you must add this css style to your website:
 ```
 
 - [markdown-it-pangu](https://shigma.github.io/markdown-it-pangu/)
-For more information: [Pangu](https://github.com/vinta/pangu.js)
 
 - markdown-it-prism
+
 code highlighted by [Prism.js](https://prismjs.com/)
+
 comment will be spaced by `pangu.js`
 
 - markdown-it-mermaid
+
 Support for [Mermaid](https://github.com/mermaid-js/mermaid)
 
 ToDO for cunstom theme
