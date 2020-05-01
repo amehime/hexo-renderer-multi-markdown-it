@@ -59,6 +59,10 @@ code highlighted by [Prism.js](https://prismjs.com/)
 
 comment will be spaced by `pangu.js`
 
+    - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
+
+    - 
+
 - markdown-it-mermaid
 
 Support for [Mermaid](https://github.com/mermaid-js/mermaid)
