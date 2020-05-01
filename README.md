@@ -37,8 +37,9 @@ markdown:
 - [markdown-it-sup](https://www.npmjs.com/package/markdown-it-sup): `29^th^` 29<sup>th</sup>
 - [markdown-it-ins](https://www.npmjs.com/package/markdown-it-ins): `++inserted++` <ins>inserted</ins>
 - [markdown-it-mark](https://www.npmjs.com/package/markdown-it-mark): `==marked==` <mark>marked</mark>
-- [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
 - [markdown-it-abbr](https://www.npmjs.com/package/markdown-it-abbr)
+- [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
+- [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 - [markdown-it-deflist](https://www.npmjs.com/package/markdown-it-deflist)
 - [markdown-it-emoji](https://www.npmjs.com/package/markdown-it-emoji)
 - [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
