@@ -59,13 +59,11 @@ If you want to use katex, you must add this css style to your website:
 code highlighted by [Prism.js](https://prismjs.com/)
 
 comment will be spaced by `pangu.js`
-
+    - marked line ` mark:1,3-4`
     - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
-
-    - 
 
 - markdown-it-mermaid
 
 Support for [Mermaid](https://github.com/mermaid-js/mermaid)
 
-ToDO for cunstom theme
+ToDO for custom theme
