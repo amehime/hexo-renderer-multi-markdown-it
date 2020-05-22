@@ -45,6 +45,7 @@ markdown:
 - [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
 - [markdown-it-task-checkbox](https://www.npmjs.com/package/markdown-it-task-checkbox)
 - [markdown-it-toc-and-anchor](https://www.npmjs.com/package/markdown-it-toc-and-anchor)
+- [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
 - [markdown-it-katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex)
 
 If you want to use katex, you must add this css style to your website: 
@@ -56,14 +57,16 @@ If you want to use katex, you must add this css style to your website:
 
 - markdown-it-prism
 
-code highlighted by [Prism.js](https://prismjs.com/)
+  code highlighted by [Prism.js](https://prismjs.com/)
 
-comment will be spaced by `pangu.js`
-    - marked line ` mark:1,3-4`
-    - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
+  comment will be spaced by `pangu.js`
+
+  - marked line ` mark:1,3-4`
+  
+  - command ` command:{["[ee@s] $":1-2]["#":5-6,9-10]}`
 
 - markdown-it-mermaid
 
 Support for [Mermaid](https://github.com/mermaid-js/mermaid)
 
-ToDO for custom theme
+You should add [css style](https://github.com/mermaid-js/mermaid/tree/develop/src/themes) for mermaid.
