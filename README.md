@@ -48,14 +48,13 @@ markdown:
 - [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
 - [markdown-it-multimd-table](https://www.npmjs.com/package/markdown-it-multimd-table)
 - [markdown-it-collapsible](https://www.npmjs.com/package/markdown-it-collapsible)
-- [furigana-markdown-it](https://www.npmjs.com/package/furigana-markdown-it)
-- [markdown-it-graphviz](https://www.npmjs.com/package/markdown-it-graphviz)
+- [markdown-it-charts](https://www.npmjs.com/package/markdown-it-charts)
 - [markdown-it-katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex)
 
-If you want to use katex, you must add this css style to your website: 
-```
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
-```
+  If you want to use katex, you must add this css style to your website: 
+  ```
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
+  ```
 
 - [markdown-it-pangu](https://shigma.github.io/markdown-it-pangu/)
 
@@ -63,7 +62,7 @@ If you want to use katex, you must add this css style to your website:
 
   code highlighted by [Prism.js](https://prismjs.com/)
 
-  comment will be spaced by `pangu.js`
+  comments will be spaced by `pangu.js`
 
   - marked line ` mark:1,3-4`
   
@@ -71,6 +70,14 @@ If you want to use katex, you must add this css style to your website:
 
 - markdown-it-mermaid
 
-Support for [Mermaid](https://github.com/mermaid-js/mermaid)
+  Support for [Mermaid](https://github.com/mermaid-js/mermaid)
 
-You should add [css style](https://github.com/mermaid-js/mermaid/tree/develop/src/themes) for mermaid.
+  You should add [css style](https://github.com/mermaid-js/mermaid/tree/develop/src/themes) for mermaid.
+
+- markdown-it-graphviz
+
+- markdown-it-furigana
+  
+  Modified from [furigana-markdown-it](https://www.npmjs.com/package/furigana-markdown-it) and [markdown-it-ruby](https://www.npmjs.com/package/markdown-it-ruby)
+
+  eg. `{可愛い犬|か+わい・い・いぬ}`

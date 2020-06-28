@@ -29,6 +29,7 @@
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^3.0.2",
     "markdown-it-bracketed-spans": "^1.0.1",
+    "markdown-it-charts": "^1.0.5",
     "markdown-it-collapsible": "^1.0.0",
     "markdown-it-container": "^2.0.0",
     "markdown-it-deflist": "^2.0.3",
