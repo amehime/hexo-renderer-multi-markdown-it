@@ -47,6 +47,9 @@ markdown:
 - [markdown-it-toc-and-anchor](https://www.npmjs.com/package/markdown-it-toc-and-anchor)
 - [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
 - [markdown-it-multimd-table](https://www.npmjs.com/package/markdown-it-multimd-table)
+- [markdown-it-collapsible](https://www.npmjs.com/package/markdown-it-collapsible)
+- [furigana-markdown-it](https://www.npmjs.com/package/furigana-markdown-it)
+- [markdown-it-graphviz](https://www.npmjs.com/package/markdown-it-graphviz)
 - [markdown-it-katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex)
 
 If you want to use katex, you must add this css style to your website: 
