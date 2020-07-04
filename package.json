@@ -24,8 +24,11 @@
   "homepage": "https://github.com/amehime/hexo-renderer-markdown-it-ex",
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^0.5.0",
+    "bluebird": "^3.3.5",
+    "clean-css": ">2.0.0",
     "deasync-promise": "^1.0.1",
     "frappe-charts": "^1.5.0",
+    "html-minifier": "^2.1.2",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^3.0.2",
@@ -45,8 +48,10 @@
     "markdown-it-task-checkbox": "^1.0.6",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "mermaid": "^8.5.0",
+    "minimatch": "^3.0.0",
     "prismjs": "1.20.0",
-    "puppeteer": "^3.0.1"
+    "puppeteer": "^3.0.1",
+    "uglify-js": "~2.6.2"
   },
   "engines": {
     "node": ">=8.6.0"

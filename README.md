@@ -32,6 +32,17 @@ or
 yarn add hexo-renderer-markdown-it-ex
 ```
 
+if an error is reported as
+```
+ERROR: Failed to download Chromium r515411! Set "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" env variable to skip download.
+```
+
+please try again with the following command 
+
+```
+yarn add hexo-renderer-markdown-it-ex --ignore-scripts
+```
+
 ## Options
 
 Configuring the renderer is a fairly simple task because all the settings are in the main hexo `_config.yml` file.
