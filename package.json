@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-multi-markdown-it",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Markdown parser for Hexo and auto Minify HTML, CSS, JS.",
   "main": "index.js",
   "repository": "https://github.com/amehime/hexo-renderer-multi-markdown-it.git",
