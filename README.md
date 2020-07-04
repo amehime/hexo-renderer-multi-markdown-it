@@ -3,12 +3,40 @@
 
 This renderer plugin uses [Markdown-it](https://github.com/markdown-it/markdown-it) as a render engine on [Hexo]. 
 
-This renderer plugin is forked from hexo-renderer-markdown-it and hexo-renderer-markdown-it-plus. 
+This renderer plugin is forked from [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it) and [hexo-renderer-markdown-it-plus](https://www.npmjs.com/package/hexo-renderer-markdown-it-plus). 
 
 ## Installation
+Warning: make sure you're inside the main hexo directory before starting this guide.
 
+A default Hexo installation will include a markdown renderer plugin which uses marked, so you will have to remove it if you want to use this renderer.
+
+```
+npm un hexo-renderer-marked --save
+```
+
+or
+
+```
+yarn remove hexo-renderer-marked
+```
+
+If you have already removed the default renderer, and others you might of added, you can now safely install `hexo-renderer-markdown-it-ex`
+
+```
+npm i hexo-renderer-markdown-it-ex --save
+```
+
+or
+
+```
+yarn add hexo-renderer-markdown-it-ex
+```
 
 ## Options
+
+Configuring the renderer is a fairly simple task because all the settings are in the main hexo `_config.yml` file.
+
+You just need to open it in your favourite text editor and write down your configuration.
 
 ``` yml
 markdown:
@@ -19,17 +47,35 @@ markdown:
     linkify: true
     typographer: 
     quotes: '“”‘’'
-    tab: ''
-    gutter: true
   plugins:
     - plugin:
         name: markdown-it-toc-and-anchor
         enable: true
         options:
-          tocClassName: 'header-toc'
-          anchorClassName: 'header-anchor'
+          tocClassName: 'toc'
+          anchorClassName: 'anchor'
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true
+    - plugin:
+        name: ./markdown-it-furigana
+        enable: true
+        options:
+          fallbackParens: "()"
 ```
 
+change the default setting for code highlight
+
+```
+# Writing
+...
+highlight:
+  enable: false
+```
 
 ## default Supported Plugins and Examples
 
