@@ -1,9 +1,11 @@
-# hexo-renderer-markdown-it-ex
+# hexo-renderer-multi-markdown-it
 
 
 This renderer plugin uses [Markdown-it](https://github.com/markdown-it/markdown-it) as a render engine on [Hexo]. 
 
 This renderer plugin is forked from [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it) and [hexo-renderer-markdown-it-plus](https://www.npmjs.com/package/hexo-renderer-markdown-it-plus). 
+
+And minify tool is forked from [hexo-neat](https://github.com/rozbo/hexo-neat).
 
 ## Installation
 Warning: make sure you're inside the main hexo directory before starting this guide.
@@ -20,16 +22,16 @@ or
 yarn remove hexo-renderer-marked
 ```
 
-If you have already removed the default renderer, and others you might of added, you can now safely install `hexo-renderer-markdown-it-ex`
+If you have already removed the default renderer, and others you might of added, you can now safely install `hexo-renderer-multi-markdown-it`
 
 ```
-npm i hexo-renderer-markdown-it-ex --save
+npm i hexo-renderer-multi-markdown-it --save
 ```
 
 or
 
 ```
-yarn add hexo-renderer-markdown-it-ex
+yarn add hexo-renderer-multi-markdown-it
 ```
 
 if an error is reported as
@@ -40,7 +42,7 @@ ERROR: Failed to download Chromium r515411! Set "PUPPETEER_SKIP_CHROMIUM_DOWNLOA
 please try again with the following command 
 
 ```
-yarn add hexo-renderer-markdown-it-ex --ignore-scripts
+yarn add hexo-renderer-multi-markdown-it --ignore-scripts
 ```
 
 ## Options
@@ -50,6 +52,7 @@ Configuring the renderer is a fairly simple task because all the settings are in
 You just need to open it in your favourite text editor and write down your configuration.
 
 ``` yml
+# opitions for renderer
 markdown:
   render:
     html: false
@@ -77,6 +80,27 @@ markdown:
         enable: true
         options:
           fallbackParens: "()"
+
+# options for minify
+minify:
+  html:
+    enable: true
+    exclude:
+      - '**/json.ejs'
+      - '**/atom.ejs'
+      - '**/rss.ejs'
+  css:
+    enable: true
+    exclude:
+      - '**/*.min.css'
+  js:
+    enable: true
+    mangle:
+      toplevel: true
+    output:
+    compress:
+    exclude:
+      - '**/*.min.js'
 ```
 
 change the default setting for code highlight
