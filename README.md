@@ -103,7 +103,7 @@ minify:
       - '**/*.min.js'
 ```
 
-change the default setting for code highlight
+disable the highlight of site `_config.yml`
 
 ```
 # Writing
@@ -129,7 +129,6 @@ highlight:
 - [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
 - [markdown-it-multimd-table](https://www.npmjs.com/package/markdown-it-multimd-table)
 - [markdown-it-collapsible](https://www.npmjs.com/package/markdown-it-collapsible)
-- [markdown-it-charts](https://www.npmjs.com/package/markdown-it-charts)
 - [markdown-it-katex](https://www.npmjs.com/package/@neilsustc/markdown-it-katex)
 
   If you want to use katex, you must add this css style to your website: 
@@ -156,6 +155,12 @@ highlight:
   You should add [css style](https://github.com/mermaid-js/mermaid/tree/develop/src/themes) for mermaid.
 
 - markdown-it-graphviz
+  
+  Based on [Graphviz](http://www.graphviz.org/)
+
+- markdown-it-chart
+
+  Based on [Frappe Charts](https://frappe.io/charts)
 
 - markdown-it-furigana
   
