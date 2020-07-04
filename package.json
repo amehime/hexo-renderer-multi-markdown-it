@@ -1,9 +1,9 @@
 {
-  "name": "hexo-renderer-markdown-it-ex",
+  "name": "hexo-renderer-multi-markdown-it",
   "version": "0.0.1",
-  "description": "A Markdown parser for Hexo.",
+  "description": "A Markdown parser for Hexo and auto Minify HTML, CSS, JS.",
   "main": "index.js",
-  "repository": "https://github.com/amehime/hexo-renderer-markdown-it-ex.git",
+  "repository": "https://github.com/amehime/hexo-renderer-multi-markdown-it.git",
   "keywords": [
     "hexo",
     "renderer",
@@ -20,8 +20,8 @@
   ],
   "author": "Ruri Shimotsuki",
   "license": "MIT",
-  "bugs": "https://github.com/amehime/hexo-renderer-markdown-it-ex/issues",
-  "homepage": "https://github.com/amehime/hexo-renderer-markdown-it-ex",
+  "bugs": "https://github.com/amehime/hexo-renderer-multi-markdown-it/issues",
+  "homepage": "https://github.com/amehime/hexo-renderer-multi-markdown-it",
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^0.5.0",
     "bluebird": "^3.3.5",
