@@ -31,7 +31,7 @@ hexo.extend.renderer.register('mdtext', 'html', renderer, true);
 
 if (hexo.config.minify) {
     // HTML minifier
-    hexo.config.minify.html = assign({
+    hexo.config.minify.html = Object.assign({
         enable: true,
         logger: true,
         stamp: true,
@@ -47,7 +47,7 @@ if (hexo.config.minify) {
     }, hexo.config.minify.html);
 
     // Css minifier
-    hexo.config.minify.css = assign({
+    hexo.config.minify.css = Object.assign({
         enable: true,
         logger: true,
         stamp: true,
@@ -55,7 +55,7 @@ if (hexo.config.minify) {
     }, hexo.config.minifycss);
 
     // Js minifier
-    hexo.config.minify.js = assign({
+    hexo.config.minify.js = Object.assign({
         enable: true,
         mangle: true,
         logger: true,
