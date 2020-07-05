@@ -52,7 +52,7 @@ if (hexo.config.minify) {
         logger: true,
         stamp: true,
         exclude: ['*.min.css']
-    }, hexo.config.minifycss);
+    }, hexo.config.minify.css);
 
     // Js minifier
     hexo.config.minify.js = Object.assign({
