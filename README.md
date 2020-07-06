@@ -80,6 +80,11 @@ markdown:
         enable: true
         options:
           fallbackParens: "()"
+    - plugin:
+        name: ./markdown-it-spoiler
+        enable: true
+        options:
+          title: "你知道得太多了"
 
 # options for minify
 minify:
@@ -167,3 +172,8 @@ highlight:
   Modified from [furigana-markdown-it](https://www.npmjs.com/package/furigana-markdown-it) and [markdown-it-ruby](https://www.npmjs.com/package/markdown-it-ruby)
 
   eg. `{可愛い犬|か+わい・い・いぬ}`
+
+- markdown-it-spoiler
+  Modified from [markdown-it-spoiler](https://www.npmjs.com/package/@traptitech/markdown-it-spoiler)
+
+  `!!spoiler!!`  => `<span class="spoiler" title="...">spoiler</span>`
