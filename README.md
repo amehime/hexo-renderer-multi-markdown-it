@@ -174,6 +174,7 @@ highlight:
   eg. `{可愛い犬|か+わい・い・いぬ}`
 
 - markdown-it-spoiler
+
   Modified from [markdown-it-spoiler](https://www.npmjs.com/package/@traptitech/markdown-it-spoiler)
 
   `!!spoiler!!`  => `<span class="spoiler" title="...">spoiler</span>`
