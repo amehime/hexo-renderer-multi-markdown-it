@@ -1,11 +1,12 @@
 # hexo-renderer-multi-markdown-it
 
-
 This renderer plugin uses [Markdown-it](https://github.com/markdown-it/markdown-it) as a render engine on [Hexo]. 
 
 This renderer plugin is forked from [hexo-renderer-markdown-it](https://github.com/hexojs/hexo-renderer-markdown-it) and [hexo-renderer-markdown-it-plus](https://www.npmjs.com/package/hexo-renderer-markdown-it-plus). 
 
 And minify tool is forked from [hexo-neat](https://github.com/rozbo/hexo-neat).
+
+[中文使用说明](https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/)
 
 ## Installation
 Warning: make sure you're inside the main hexo directory before starting this guide.
