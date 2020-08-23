@@ -116,6 +116,9 @@ disable the highlight of site `_config.yml`
 ...
 highlight:
   enable: false
+
+prismjs:
+  enable: false
 ```
 
 ## default Supported Plugins and Examples
