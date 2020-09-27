@@ -175,7 +175,7 @@ prismjs:
   
   Modified from [furigana-markdown-it](https://www.npmjs.com/package/furigana-markdown-it) and [markdown-it-ruby](https://www.npmjs.com/package/markdown-it-ruby)
 
-  eg. `{可愛い犬|か+わい・い・いぬ}`
+  eg. `{可愛い犬^か+わい・い・いぬ}`
 
 - markdown-it-spoiler
 
